@@ -1,0 +1,12 @@
+name: django-devcontainer
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: sleep infinity
+    volumes:
+      - ../:/workspace:cached
+    ports:
+      - "8000:8000"

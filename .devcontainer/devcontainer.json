@@ -1,0 +1,23 @@
+{
+	"name": "MaCompta-backend",
+	"dockerComposeFile": "compose.yml",
+	"service": "backend",
+	"postCreateCommand": "python3 -m venv .venv && . .venv/bin/activate && pip install --upgrade setuptools pip && pip install -r requirements.txt",
+	"workspaceFolder": "/workspace",
+	"forwardPorts": [
+		8000
+	],
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.terminal.activateEnvironment": true,
+				"terminal.integrated.defaultProfile.linux": "fish"
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"mhutchie.git-graph"
+			]
+		}
+	}
+}
