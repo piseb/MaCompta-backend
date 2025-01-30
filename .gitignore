@@ -1,0 +1,8 @@
+.venv/
+.vscode/
+!.vscode/settings.json
+*.pyc
+db.sqlite3
+.env
+.coverage
+htmlcov/
