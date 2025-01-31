@@ -16,7 +16,10 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				"github.vscode-github-actions",
+				"ms-python.mypy-type-checker",
+				"ms-python.black-formatter"
 			]
 		}
 	}
