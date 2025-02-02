@@ -14,6 +14,16 @@
 				"terminal.integrated.defaultProfile.linux": "fish"
 			},
 			"extensions": [
+				"github.copilot",
+				"github.copilot-chat",
+				"ms-vscode.vscode-copilot-data-analysis",
+				"ms-vscode.vscode-copilot-vision",
+				"ms-vscode.vscode-websearchforcopilot",
+				"visualstudioexptteam.vscodeintellicode",
+				"visualstudioexptteam.intellicode-api-usage-examples",
+				"sonarsource.sonarlint-vscode",
+				"alexcvzz.vscode-sqlite",
+				"gruntfuggly.todo-tree",
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"mhutchie.git-graph",
